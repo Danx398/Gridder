@@ -9,6 +9,7 @@
 </head>
 <body>
     @extends('../shared.navb')
+    @include('sweetalert::alert')
     @yield('contenido')
     <script src="{{mix('js/app.js')}}"></script>
 </body>
