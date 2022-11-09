@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\AuthControllers;
 use App\Http\Controllers\Registros;
 use Illuminate\Support\Facades\Route;
 
@@ -13,5 +14,9 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+
+Route::get('/',[AuthControllers::class,'index'])->name('login');
+Route::post('/logear',[AuthControllers::class,'logear'])->name('logear');
+Route::get('/logout',[AuthControllers::class,'logout'])->name('logout');
 
 Route::get('/registrar',[Registros::class,'index'])->name('registrar');
