@@ -14,7 +14,7 @@ class AuthControllers extends Controller
     }
     public function logear(Request $request){
         $credenciales = $request->only('name','password');
-        return Auth::attempt($credenciales) ? redirect()->route('') : back()->withInput($credenciales);
+        return Auth::attempt($credenciales) ? redirect()->route('inicio') : back()->withInput($credenciales);
     }
     public function logout(){
         Auth::logout();
