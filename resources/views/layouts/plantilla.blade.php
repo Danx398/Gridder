@@ -8,7 +8,6 @@
     <title>{{$titulo}}</title>
 </head>
 <body>
-    @include('../shared.navb')
 
     @include('sweetalert::alert')
     @yield('contenido')

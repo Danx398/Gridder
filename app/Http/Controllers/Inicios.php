@@ -6,6 +6,10 @@ use Illuminate\Http\Request;
 
 class Inicios extends Controller
 {
+    public function __construct()
+    {   
+        $this->middleware(['auth','nocache'])->only('index');
+    }
     public function index(){
         $titulo = 'Inicio';
         return view('inicio',compact('titulo'));

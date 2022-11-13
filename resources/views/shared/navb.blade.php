@@ -17,5 +17,8 @@
           </li>
         </ul>
       </div>
+      <form class="">
+        <a href="{{route('logout')}}" class="btn btn-outline-danger" type="submit">cerrar session</a>
+      </form>
     </div>
 </nav>
