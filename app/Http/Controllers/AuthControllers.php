@@ -14,6 +14,8 @@ class AuthControllers extends Controller
     }
     public function logear(Request $request){
         $credenciales = $request->only('name','password');
+        //dd(Auth::user()->name);
+        alert($request->name,'Bienvenido','success');
         return Auth::attempt($credenciales) ? redirect()->route('inicio') : back()->withInput($credenciales);
     }
     public function logout(){
