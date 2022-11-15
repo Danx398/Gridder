@@ -16,7 +16,7 @@ class AuthControllers extends Controller
         $credenciales = $request->only('name','password');
         //dd(Auth::user()->name);
         //alert($request->name,'Bienvenido','success');
-        toast('Bienvenido '.$request->name,'success');
+        toast('Bienvenid@ '.$request->name,'success');
         return Auth::attempt($credenciales) ? redirect()->route('inicio') : back()->withInput($credenciales);
     }
     public function logout(){
