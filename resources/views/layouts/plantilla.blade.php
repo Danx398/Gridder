@@ -8,7 +8,6 @@
     <title>{{$titulo}}</title>
 </head>
 <body>
-
     @include('sweetalert::alert')
     @yield('contenido')
     <script src="{{mix('js/app.js')}}"></script>

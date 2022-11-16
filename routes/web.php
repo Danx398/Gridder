@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\AuthControllers;
 use App\Http\Controllers\Inicios;
+use App\Http\Controllers\Libros;
 use App\Http\Controllers\Registros;
 use Illuminate\Support\Facades\Route;
 
@@ -17,3 +18,6 @@ Route::post('/registrar',[Registros::class,'registrar'])->name('registrar');
 /* Rutas para el inicio */
 
 Route::get('/inicio',[Inicios::class,'index'])->name('inicio');
+
+/* Rutas para los libros */
+Route::get('/anaFrank',[Libros::class,'anaFrank'])->name('anaFrank');

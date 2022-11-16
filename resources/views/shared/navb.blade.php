@@ -7,7 +7,7 @@
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#"></a>
+            <a class="nav-link active" aria-current="page" href="{{route('inicio')}}">Inicio</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Features</a>
@@ -18,7 +18,7 @@
         </ul>
       </div>
       <form class="">
-        <a href="{{route('logout')}}" class="btn btn-danger" type="submit">cerrar session</a>
+        <a href="{{route('logout')}}" class="btn btn-danger" type="submit">Cerrar session</a>
       </form>
     </div>
 </nav>
