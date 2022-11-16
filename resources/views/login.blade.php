@@ -11,12 +11,12 @@
                     <label for="user" class="text">Nombre de usuario</label>
                     <div class="input-group mt-1 mb-3">
                         <span class="input-group-text" for="name"><i class="fa-solid fa-user"></i></span>
-                        <input required="" type="text" name="name" id="name" class="form-control" >
+                        <input required="" type="text" name="name" id="name" class="form-control" placeholder="Ej. Juan" value="{{ old("name") }}">
                     </div>
                     <label for="pass">Contraseña</label>
                     <div class="input-group mt-1 mb-3">
                         <span class="input-group-text" for="pass"><i class="fa-solid fa-key"></i></span>
-                        <input required="" type="password" class="form-control" name="password" id="pasword">
+                        <input required="" type="password" class="form-control" name="password" id="pasword" value="{{ old("password") }}">
                     </div>
                     <div class="d-flex justify-content-center">
                         <button class=" btn btn-outline-dark mb-3">Iniciar sesion</button>
