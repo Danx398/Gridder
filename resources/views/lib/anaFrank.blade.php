@@ -16,7 +16,7 @@
                     abandonar el país y, el lunes 6 de julio de 1942, se refugiaron en el
                     «anexo secreto», ubicado en las mismas oficinas de Otto Frank.
                     Hoy la casa es un museo.</p>
-                    <div class="d-flex justify-content-center">
+                    <div class="d-flex justify-content-center mb-3">
                         <iframe width="900" height="900" src="{{asset('files/diario.pdf')}}" frameborder="0"></iframe>
                     </div>
             </div>
