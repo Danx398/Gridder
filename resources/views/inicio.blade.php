@@ -2,7 +2,7 @@
 @extends('./layouts.plantilla')
 @section('contenido')
     <div class="container">
-        <div class="row">
+        <div class="row mb-3">
             <div class="col-4 d-flex d-flex justify-content-evenly mb-5">
                 <div class="card mt-2" style="width: 18rem;">
                     <img src="{{ asset('img/diario.jpg') }}" class="card-img-top" alt="...">
