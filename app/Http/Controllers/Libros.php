@@ -10,5 +10,9 @@ class Libros extends Controller
         $titulo ="Ana Frank - Libro";
         return view('lib/anaFrank',compact('titulo'));
     }
+    public function cienAnios(){
+        $titulo = "Cien Años - libro";
+        return view('lib/cienAnios',compact('titulo'));
+    }
 
 }
