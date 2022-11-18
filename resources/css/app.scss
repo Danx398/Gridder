@@ -4,10 +4,11 @@
 // $fondo_harry:'';
 
 .harry{
+    background: rgb(95, 92, 93);
+background: radial-gradient(circle, rgb(0, 0, 0) 0%, rgb(52, 53, 55) 100%);
+}
+.castillo{
     background-image: url('../../public/img/harry.jpg');
     background-repeat: no-repeat;
     // background-size: 1920px;
-}
-.castillo{
-    background-color: black;
 }

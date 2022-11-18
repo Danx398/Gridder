@@ -1,11 +1,18 @@
 @extends('./layouts.plantilla')
 
 @section('contenido')
-    <div class="container mt-5">
-        <div class="row mt-5">
-            <div class="col"></div>
-            <div class="col-4 shadow rounded mt-5 bg-secondary bg-gradient text-light">
-                <h1 class="text-center mb-3 mt-3">INICIAR SESION</h1>
+
+<section class="vh-100 gradient-custom">
+    <div class="container py-5 h-100">
+      <div class="row d-flex justify-content-center align-items-center h-100">
+        <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+          <div class="card text-white" style="background-color: rgba(27, 26, 26, 0.815)">
+            <div class="card-body p-5 text-center" style="box-shadow: 5px 5px 10px rgb(255, 255, 255);">
+  
+              <div class="mb-md-5 mt-md-4 pb-5">
+                    
+                <h2 class="fw-bold mb-2 text-uppercase">Inicio de sesion</h2>
+                <br>
                 <form action="{{route('logear')}}" method="post" autocomplete="off">
                     @csrf
                     <label for="user" class="text">Nombre de usuario</label>
@@ -26,5 +33,5 @@
             </div>
             <div class="col"></div>
         </div>
-    </div>
+    </div>                   
 @endsection
