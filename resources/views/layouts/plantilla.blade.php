@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="{{ mix('css/app.css') }}">
     <title>{{$titulo}}</title>
 </head>
-<body>
+<body class="{{$classCss}}">
     @include('sweetalert::alert')
     @yield('contenido')
     <script src="{{mix('js/app.js')}}"></script>

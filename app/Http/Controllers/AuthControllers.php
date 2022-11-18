@@ -10,7 +10,8 @@ class AuthControllers extends Controller
 {
     public function index(){
         $titulo = "Login";
-        return Auth::check() ? redirect()->route('inicio') : view('login',compact('titulo'));
+        $classCss = "harry";
+        return Auth::check() ? redirect()->route('inicio') : view('login',compact('titulo','classCss'));
     }
     public function logear(Request $request){
         $credenciales = $request->only('name','password');

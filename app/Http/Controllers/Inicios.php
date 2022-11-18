@@ -11,7 +11,8 @@ class Inicios extends Controller
         $this->middleware(['auth','nocache'])->only('index');
     }
     public function index(){
-        $titulo = 'Dashboard';
-        return view('inicio',compact('titulo'));
+        $titulo = "Dashboard";
+        $classCss = "castillo";
+        return view('inicio',compact('titulo','classCss'));
     }
 }
