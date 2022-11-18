@@ -11,7 +11,8 @@ class Registros extends Controller
     public function index(){
         // alert('Title','Lorem Lorem Lorem', 'success');
         $titulo = "Registro";
-        return view('registro',compact('titulo'));
+        $classCss = "harry";
+        return view('registro',compact('titulo','classCss'));
     }
     public function registrar(Request $request){
         $item = new User();
