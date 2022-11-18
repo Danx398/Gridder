@@ -1,14 +1,21 @@
 @import '~bootstrap/scss/bootstrap';
 @import '~@fortawesome/fontawesome-free/css/all.min.css';
 
-// $fondo_harry:'';
+$fondo_harry:'../../public/img/magoshp.png';
+$fondo_login: radial-gradient(circle, rgb(0, 0, 0) 0%, rgb(57, 57, 61) 100%);
+$fondo_anaf: '../../public/img/castle.png';
 
 .harry{
-    background: rgb(95, 92, 93);
-background: radial-gradient(circle, rgb(0, 0, 0) 0%, rgb(52, 53, 55) 100%);
+    background: $fondo_login;
 }
 .castillo{
-    background-image: url('../../public/img/harry.jpg');
+    background-image: url($fondo_harry);
     background-repeat: no-repeat;
-    // background-size: 1920px;
+    // para que la imagen se vea en toda la pantalla xd 
+    background-size: cover;
+}
+.fondoAnaF{
+    background-image: url($fondo_anaf);
+    background-repeat: no-repeat;
+    background-size: cover;
 }

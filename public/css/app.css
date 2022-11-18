@@ -10828,11 +10828,17 @@ textarea.form-control-lg {
   }
 }
 .harry {
-  background: rgb(95, 92, 93);
-  background: radial-gradient(circle, rgb(0, 0, 0) 0%, rgb(52, 53, 55) 100%);
+  background: radial-gradient(circle, rgb(0, 0, 0) 0%, rgb(57, 57, 61) 100%);
 }
 
 .castillo {
-  background-image: url(/images/harry.jpg?1f21d2689b836c7c7156763f7ad34ad6);
+  background-image: url(/images/magoshp.png?3251d1c4d1ce1ebf9b16c6004b903c02);
   background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fondoAnaF {
+  background-image: url(/images/castle.png?6bc53f5ac0d65c4dc9da617d8b0682c7);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
