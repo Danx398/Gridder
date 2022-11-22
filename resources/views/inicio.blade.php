@@ -3,8 +3,8 @@
 @section('contenido')
     <div class="container">
         <div class="row mb-3">
-            <div class="col-4 d-flex d-flex justify-content-evenly mb-5">
-                <div class="card mt-2" style="width: 18rem;">
+            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-6 col-xs pe-3">
+                <div class="card mt-3">
                     <img src="{{ asset('img/diario.jpg') }}" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title text-center">El diario de Anne Frank</h5>
@@ -13,8 +13,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-4">
-                <div class="card mt-2" style="width: 18rem;">
+            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-6 col-xs px-3">
+                <div class="card mt-3" >
                     <img src="{{asset('img/pddTeamo.jpg')}}" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title text-center">Posdata Te amo</h5>
@@ -23,12 +23,44 @@
                     </div>
                 </div>
             </div>
-            <div class="col-4">
-                <div class="card mt-2" style="width: 18rem;">
+            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-6 col-xs ps-3">
+                <div class="card mt-3">
                     <img src="{{ asset('img/cienSoledad.jpg') }}" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title text-center">Cien Años de Soledad</h5>
                         <p class="card-text mb-5">Es una novela del escritor colombiano Gabriel García Márquez, ganador del Premio Nobel de Literatura en 1982. Es considerada una obra maestra de la literatura hispanoamericana</p>
+                        <a href="{{route('cienAnios')}}" class="btn btn-outline-success d-flex justify-content-center mb-2">Descubrelo</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-6 col-xs ps-3">
+                <div class="card mt-3">
+                    <img src="{{ asset('') }}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center"></h5>
+                        <p class="card-text mb-5"></p>
+                        <a href="{{route('cienAnios')}}" class="btn btn-outline-success d-flex justify-content-center mb-2">Descubrelo</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-6 col-xs ps-3">
+                <div class="card mt-3">
+                    <img src="{{ asset('') }}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center"></h5>
+                        <p class="card-text mb-5"></p>
+                        <a href="{{route('cienAnios')}}" class="btn btn-outline-success d-flex justify-content-center mb-2">Descubrelo</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-6 col-xs ps-3">
+                <div class="card mt-3">
+                    <img src="{{ asset('') }}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center"></h5>
+                        <p class="card-text mb-5"></p>
                         <a href="{{route('cienAnios')}}" class="btn btn-outline-success d-flex justify-content-center mb-2">Descubrelo</a>
                     </div>
                 </div>
