@@ -10842,3 +10842,27 @@ textarea.form-control-lg {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.fondoCienA {
+  background-image: url(/images/buho.png?d669d03f92150024ec117231ea7ba64a);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fondoTamo {
+  background-image: url(/images/dragon.png?7bdd4085e44f7a88f5c88a8f50d33099);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body::-webkit-scrollbar {
+  background-color: #797979;
+  border-radius: 20px;
+  border: 2px solid rgba(241, 242, 243, 0.1843137255);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.468); /* color of the scroll thumb */
+  border-radius: 20px; /* roundness of the scroll thumb */
+  border: 3px solid rgb(132, 132, 132); /* creates padding around scroll thumb */
+}

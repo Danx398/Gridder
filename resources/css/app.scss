@@ -4,6 +4,8 @@
 $fondo_harry:'../../public/img/magoshp.png';
 $fondo_login: radial-gradient(circle, rgb(0, 0, 0) 0%, rgb(57, 57, 61) 100%);
 $fondo_anaf: '../../public/img/castle.png';
+$fondo_cien : '../../public/img/buho.png';
+$fondo_tamo: '../../public/img/dragon.png';
 
 .harry{
     background: $fondo_login;
@@ -19,3 +21,24 @@ $fondo_anaf: '../../public/img/castle.png';
     background-repeat: no-repeat;
     background-size: cover;
 }
+.fondoCienA{
+    background-image: url($fondo_cien);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fondoTamo{
+    background-image: url($fondo_tamo);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body::-webkit-scrollbar {
+    
+    background-color: #797979;
+    border-radius: 20px;
+    border: 2px solid #f1f2f32f;
+}
+body::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.468);    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid rgb(132, 132, 132);  /* creates padding around scroll thumb */
+  }
