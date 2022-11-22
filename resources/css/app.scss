@@ -1,11 +1,11 @@
 @import '~bootstrap/scss/bootstrap';
 @import '~@fortawesome/fontawesome-free/css/all.min.css';
 
-$fondo_harry:'../../public/img/magoshp.png';
+$fondo_harry:'../../public/img/fondos/magoshp.png';
 $fondo_login: radial-gradient(circle, rgb(0, 0, 0) 0%, rgb(57, 57, 61) 100%);
-$fondo_anaf: '../../public/img/castle.png';
-$fondo_cien : '../../public/img/buho.png';
-$fondo_tamo: '../../public/img/dragon.png';
+$fondo_anaf: '../../public/img/fondos/castle.png';
+$fondo_cien : '../../public/img/fondos/buho.png';
+$fondo_tamo: '../../public/img/fondos/dragon.png';
 
 .harry{
     background: $fondo_login;
