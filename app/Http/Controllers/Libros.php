@@ -19,5 +19,10 @@ class Libros extends Controller
         $classCss = "fondoCienA";
         return view('lib/cienAnios',compact('titulo','classCss'));
     }
+    public function teAmo(){
+        $titulo = "Posdata Te amo - libro";
+        $classCss = "fondoTamo";
+        return view('lib/pdTamo',compact('titulo','classCss'));
+    }
 
 }

@@ -22,3 +22,4 @@ Route::get('/inicio',[Inicios::class,'index'])->name('inicio');
 /* Rutas para los libros */
 Route::get('/anaFrank',[Libros::class,'anaFrank'])->name('anaFrank');
 Route::get('/cienAnios',[Libros::class,'cienAnios'])->name('cienAnios');
+Route::get('/teamo',[Libros::class,'teAmo'])->name('teamo');

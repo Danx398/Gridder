@@ -3,7 +3,7 @@
 @section('contenido')
     <div class="container">
         <div class="row">
-            <div class="col">
+            <div class="col text-light">
                 <h1 class="Text-center mt-2">El diario de Ana Frank</h1>
                 <h3>Sinopsis: </h3>
                 <p>EL VIERNES 10 DE MAYO DE 1940 AL AMANECER, Hitler lanzó ochenta

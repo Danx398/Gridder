@@ -19,7 +19,7 @@
                     <div class="card-body">
                         <h5 class="card-title text-center">Posdata Te amo</h5>
                         <p class="card-text mb-5">Una historia de amor apasionante y desgarrante. Un día él fallece y Holly, devastada, realiza durante tres meses una lista que Gerry prepara antes de morir.</p>
-                        <a href="" class="btn btn-outline-success d-flex justify-content-center mb-2 mt-5">Descubrelo</a>
+                        <a href="{{route('teamo')}}" class="btn btn-outline-success d-flex justify-content-center mb-2 mt-5">Descubrelo</a>
                     </div>
                 </div>
             </div>
