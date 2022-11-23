@@ -34,7 +34,7 @@
                 </div>
             </div>
         </div>
-        <div class="row">
+        <div class="row mb-3">
             <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-6 col-xs ps-3">
                 <div class="card mt-3">
                     <img src="{{ asset('') }}" class="card-img-top" alt="...">
