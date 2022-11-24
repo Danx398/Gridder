@@ -23,3 +23,8 @@ Route::get('/inicio',[Inicios::class,'index'])->name('inicio');
 Route::get('/anaFrank',[Libros::class,'anaFrank'])->name('anaFrank');
 Route::get('/cienAnios',[Libros::class,'cienAnios'])->name('cienAnios');
 Route::get('/teamo',[Libros::class,'teAmo'])->name('teamo');
+Route::get('/emma',[Libros::class,'emma'])->name('emma');
+Route::get('/charlotte',[Libros::class,'charlotte'])->name('charlotte');
+Route::get('/fierecilla',[Libros::class,'fierecilla'])->name('fierecilla');
+Route::get('/animals',[Libros::class,'animals'])->name('animals');
+Route::get('/manual',[Libros::class,'manual'])->name('manual');
