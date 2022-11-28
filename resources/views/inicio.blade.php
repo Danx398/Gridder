@@ -81,7 +81,7 @@
                     <div class="card-body">
                         <h5 class="card-title text-center"></h5>
                         <p class="card-text mb-5"></p>
-                        <a href="{{route('cienAnios')}}" class="btn btn-outline-success d-flex justify-content-center mb-2">Descubrelo</a>
+                        <a href="{{route('manual')}}" class="btn btn-outline-success d-flex justify-content-center mb-2">Descubrelo</a>
                     </div>
                 </div>
             </div>

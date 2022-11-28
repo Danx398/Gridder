@@ -10855,6 +10855,36 @@ textarea.form-control-lg {
   background-size: cover;
 }
 
+.fondoEmma {
+  background-image: url(/images/venado.jpg?b8d1948b4820d9142867fccf595a664e);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fondoCharlotte {
+  background-image: url(/images/gosht.png?89e543f4aa5d5d125528e39da83948d4);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fondoFierecilla {
+  background-image: url(/images/gosht2.png?b139a2db9a2cda6bff405321b2d7bc6f);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fondoEnciclopedia {
+  background-image: url(/images/harry.jpg?1f21d2689b836c7c7156763f7ad34ad6);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fondoManual {
+  background-image: url(/images/nieve.jpg?acc07d93496357e9835beb059e00f1d7);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 body::-webkit-scrollbar {
   background-color: #797979;
   border-radius: 20px;

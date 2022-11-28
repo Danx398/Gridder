@@ -6,9 +6,6 @@ use Illuminate\Http\Request;
 
 class Libros extends Controller
 {
-    public function fondo(){
-        
-    }
     public function anaFrank(){
         $titulo ="Ana Frank - Libro";
         $classCss = "fondoAnaF";

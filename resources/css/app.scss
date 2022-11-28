@@ -1,11 +1,16 @@
 @import '~bootstrap/scss/bootstrap';
 @import '~@fortawesome/fontawesome-free/css/all.min.css';
 
-$fondo_harry:'../../public/img/fondos/magoshp.png';
 $fondo_login: radial-gradient(circle, rgb(0, 0, 0) 0%, rgb(57, 57, 61) 100%);
+$fondo_harry:'../../public/img/fondos/magoshp.png';
 $fondo_anaf: '../../public/img/fondos/castle.png';
 $fondo_cien : '../../public/img/fondos/buho.png';
 $fondo_tamo: '../../public/img/fondos/dragon.png';
+$fondo_Emma: '../../public/img/fondos/venado.jpg';
+$fondo_Charlotte: '../../public/img/fondos/gosht.png';
+$fondo_Fierecilla: '../../public/img/fondos/gosht2.png';
+$fondo_Enciclopedia: '../../public/img/fondos/harry.jpg';
+$fondo_Manual: '../../public/img/fondos/nieve.jpg';
 
 .harry{
     background: $fondo_login;
@@ -31,6 +36,32 @@ $fondo_tamo: '../../public/img/fondos/dragon.png';
     background-repeat: no-repeat;
     background-size: cover;
 }
+.fondoEmma{
+    background-image: url($fondo_Emma);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fondoCharlotte{
+    background-image: url($fondo_Charlotte);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fondoFierecilla{
+    background-image: url($fondo_Fierecilla);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fondoEnciclopedia{
+    background-image: url($fondo_Enciclopedia);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fondoManual{
+    background-image: url($fondo_Manual);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 body::-webkit-scrollbar {
     
     background-color: #797979;
