@@ -73,3 +73,9 @@ body::-webkit-scrollbar-thumb {
     border-radius: 20px;       /* roundness of the scroll thumb */
     border: 3px solid rgb(132, 132, 132);  /* creates padding around scroll thumb */
   }
+
+// efecto blur
+.box{
+    background-color: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7px);
+}

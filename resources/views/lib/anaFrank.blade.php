@@ -3,7 +3,7 @@
 @section('contenido')
     <div class="container">
         <div class="row">
-            <div class="col text-light">
+            <div class="col text-light box bordered rounded m-3">
                 <h1 class="Text-center mt-2">El diario de Ana Frank</h1>
                 <h3>Sinopsis: </h3>
                 <p>EL VIERNES 10 DE MAYO DE 1940 AL AMANECER, Hitler lanzó ochenta
@@ -16,11 +16,10 @@
                     abandonar el país y, el lunes 6 de julio de 1942, se refugiaron en el
                     «anexo secreto», ubicado en las mismas oficinas de Otto Frank.
                     Hoy la casa es un museo.</p>
-                    <div class="d-flex justify-content-center mb-3">
-                        <iframe width="900" height="900" src="{{asset('files/diario.pdf')}}" frameborder="0"></iframe>
-                    </div>
+            </div>    
+            <div class="d-flex justify-content-center mb-3">
+                <iframe width="900" height="900" src="{{asset('files/diario.pdf')}}" frameborder="0"></iframe>
             </div>
-            
         </div>
     </div>
 @endsection
